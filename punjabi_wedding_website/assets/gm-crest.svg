@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#8a6d3b"/>
+      <stop offset="25%" stop-color="#e7c97a"/>
+      <stop offset="50%" stop-color="#d4af37"/>
+      <stop offset="75%" stop-color="#fae59e"/>
+      <stop offset="100%" stop-color="#aa771c"/>
+    </linearGradient>
+    <linearGradient id="goldGradSoft" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#f5e3a9"/>
+      <stop offset="50%" stop-color="#d4af37"/>
+      <stop offset="100%" stop-color="#9b7126"/>
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+
+  <g transform="translate(0, 0)">
+    <!-- Top Royal Crown -->
+    <g transform="translate(250, 85) scale(0.75)" fill="url(#goldGrad)">
+      <path d="M-45,35 L-55,0 L-25,18 L0,-18 L25,18 L55,0 L45,35 Z" />
+      <circle cx="-55" cy="-3" r="5" />
+      <circle cx="-25" cy="15" r="4" />
+      <circle cx="0" cy="-22" r="6" />
+      <circle cx="25" cy="15" r="4" />
+      <circle cx="55" cy="-3" r="5" />
+      <rect x="-46" y="37" width="92" height="7" rx="3" />
+      <circle cx="-30" cy="40.5" r="2" fill="#fff" opacity="0.8"/>
+      <circle cx="0" cy="40.5" r="2.5" fill="#fff" opacity="0.8"/>
+      <circle cx="30" cy="40.5" r="2" fill="#fff" opacity="0.8"/>
+    </g>
+
+    <!-- Outer Laurel Wreath and Filigree -->
+    <g fill="none" stroke="url(#goldGrad)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M250,115 C160,115 105,175 105,270 C105,365 160,425 250,425 C340,425 395,365 395,270 C395,175 340,115 250,115" stroke-dasharray="4,3" opacity="0.6" stroke-width="1.5"/>
+      <path d="M250,122 C168,122 115,180 115,270 C115,360 168,418 250,418 C332,418 385,360 385,270 C385,180 332,122 250,122" stroke-width="2"/>
+
+      <!-- Leaves Left -->
+      <path d="M175,135 C150,140 142,165 142,165 C142,165 160,165 175,150" fill="url(#goldGradSoft)" stroke="none"/>
+      <path d="M138,175 C115,185 110,210 110,210 C110,210 130,208 142,192" fill="url(#goldGradSoft)" stroke="none"/>
+      <path d="M118,225 C95,240 92,268 92,268 C92,268 112,262 122,242" fill="url(#goldGradSoft)" stroke="none"/>
+      <path d="M115,280 C95,295 95,325 95,325 C95,325 115,315 122,298" fill="url(#goldGradSoft)" stroke="none"/>
+      <path d="M130,340 C112,360 120,388 120,388 C120,388 138,375 142,355" fill="url(#goldGradSoft)" stroke="none"/>
+      <path d="M165,390 C150,412 170,432 170,432 C170,432 182,415 180,398" fill="url(#goldGradSoft)" stroke="none"/>
+
+      <!-- Leaves Right -->
+      <path d="M325,135 C350,140 358,165 358,165 C358,165 340,165 325,150" fill="url(#goldGradSoft)" stroke="none"/>
+      <path d="M362,175 C385,185 390,210 390,210 C390,210 370,208 358,192" fill="url(#goldGradSoft)" stroke="none"/>
+      <path d="M382,225 C405,240 408,268 408,268 C408,268 388,262 378,242" fill="url(#goldGradSoft)" stroke="none"/>
+      <path d="M385,280 C405,295 405,325 405,325 C405,325 385,315 378,298" fill="url(#goldGradSoft)" stroke="none"/>
+      <path d="M370,340 C388,360 380,388 380,388 C380,388 362,375 358,355" fill="url(#goldGradSoft)" stroke="none"/>
+      <path d="M335,390 C350,412 330,432 330,432 C330,432 318,415 320,398" fill="url(#goldGradSoft)" stroke="none"/>
+
+      <!-- Bottom Ribbon / Flourish -->
+      <path d="M220,425 C235,435 250,442 250,442 C250,442 265,435 280,425" stroke="url(#goldGrad)" stroke-width="2.5"/>
+      <circle cx="250" cy="445" r="4" fill="url(#goldGrad)"/>
+      <path d="M235,446 C215,460 200,455 190,465" stroke="url(#goldGrad)" stroke-width="2"/>
+      <path d="M265,446 C285,460 300,455 310,465" stroke="url(#goldGrad)" stroke-width="2"/>
+    </g>
+
+    <!-- Monogram Letters G & M -->
+    <g id="letters" fill="url(#goldGrad)" filter="url(#glow)">
+      <text x="212" y="295" font-family="'Cormorant Garamond', 'Cinzel', 'Playfair Display', Georgia, serif" font-size="140" font-weight="600" font-style="italic" text-anchor="middle" letter-spacing="-5">G</text>
+      <text x="288" y="305" font-family="'Cormorant Garamond', 'Cinzel', 'Playfair Display', Georgia, serif" font-size="125" font-weight="500" font-style="normal" text-anchor="middle" letter-spacing="-2">M</text>
+    </g>
+
+    <!-- Subtle Ampersand connecting them -->
+    <text x="250" y="285" font-family="'Pinyon Script', cursive, serif" font-size="38" fill="url(#goldGradSoft)" text-anchor="middle" opacity="0.85">&amp;</text>
+
+    <!-- Micro decorative star/dots -->
+    <circle cx="250" cy="138" r="2.5" fill="url(#goldGrad)"/>
+    <circle cx="250" cy="402" r="2.5" fill="url(#goldGrad)"/>
+  </g>
+</svg>

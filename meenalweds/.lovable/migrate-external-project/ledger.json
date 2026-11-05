@@ -1,0 +1,14 @@
+{
+  "source": "github:ruzalkathiriya1829/wedding-website",
+  "capabilities": [
+    { "capability": "code", "source": "Static pre-rendered HTML + inline script (original app JS bundles not in repo)", "outcome": "Rebuilt as React page at /", "status": "migrated", "next_action": "none" },
+    { "capability": "assets", "source": "punjabi_wedding_website/assets (images, 2 hero videos, mp3)", "outcome": "Uploaded to Lovable Assets CDN", "status": "migrated", "next_action": "none" },
+    { "capability": "interactivity", "source": "Open invitation, music toggle, scroll reveal, countdown, scratch card, travel accordion, wardrobe carousel", "outcome": "Recreated in React", "status": "verified", "next_action": "none" },
+    { "capability": "event films", "source": "Celebration video elements had no video source in the repo, only posters", "outcome": "Posters shown", "status": "accepted", "next_action": "user can send event videos if wanted" },
+    { "capability": "schema", "source": "none", "outcome": "n/a static site", "status": "accepted", "next_action": "none" },
+    { "capability": "records", "source": "none", "outcome": "n/a", "status": "accepted", "next_action": "none" },
+    { "capability": "auth", "source": "none", "outcome": "n/a", "status": "accepted", "next_action": "none" },
+    { "capability": "external links", "source": "Google Maps directions, designer credit link", "outcome": "Preserved", "status": "migrated", "next_action": "none" },
+    { "capability": "secrets", "source": "none", "outcome": "n/a", "status": "accepted", "next_action": "none" }
+  ]
+}
